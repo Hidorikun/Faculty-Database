@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>STATISTICS_MENU</class>
+ <widget class="QWidget" name="STATISTICS_MENU">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>615</width>
+    <height>352</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QPushButton" name="print_all_enrolled">
+     <property name="text">
+      <string>PRINT all students enrolled at a given discipline, alphabetically or by descending order of average grades</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QPushButton" name="print_all_failing">
+     <property name="text">
+      <string>PRINT all students failing at one or more discipline</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QPushButton" name="prin_best_students">
+     <property name="text">
+      <string>PRINT students with the best school situation, sorted in descending order of their aggregated average
+</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QPushButton" name="print_best_disciplines">
+     <property name="text">
+      <string>PRINT all disciplines sorted in descending order of the average grade received by all students enrolled at that discipline.</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

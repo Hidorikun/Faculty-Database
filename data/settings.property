@@ -1,0 +1,14 @@
+#deleting any property in this file will cause the program to malfunction!
+#binary, file
+repository = file
+students  = ../../data/students
+disciplines = ../../data/disciplines
+enroll = ../../data/enroll
+
+#path to file
+grades = ../../data/grades
+
+#gui, command
+ui = command
+
+

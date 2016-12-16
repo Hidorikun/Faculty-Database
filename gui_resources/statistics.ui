@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>STATISTICS_MENU</class>
+ <widget class="QWidget" name="STATISTICS_MENU">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>529</width>
+    <height>391</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QPushButton" name="alpha_btn">
+     <property name="text">
+      <string>PRINT all students enrolled at a given discipline, alphabetically</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="descending_btn">
+     <property name="text">
+      <string>PRINT all students enrolled at a given discipline, sorded in descending order </string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="failing_btn">
+     <property name="text">
+      <string>PRINT all studend failing at one or more disciplines</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="best_students_btn">
+     <property name="text">
+      <string>PRINT students with best situations, sorted in descending order o their aggregated avarage</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="best_disciplines">
+     <property name="text">
+      <string>PRINT all disciplines sorted in descending order of the average grade received by all enrolled students</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
