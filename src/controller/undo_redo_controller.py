@@ -1,7 +1,7 @@
 '''
 Created on Dec 3, 2016
 
-@author: Ok!
+@author: George Vele
 '''
 from domain.validators import DatabaseException
 

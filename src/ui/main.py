@@ -1,7 +1,7 @@
 '''
 Created on Nov 3, 2016
 
-@author: Ok!
+@author: George Vele
 '''
 import traceback
 

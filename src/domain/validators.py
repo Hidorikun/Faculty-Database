@@ -1,7 +1,7 @@
 '''
 Created on Nov 2, 2016
 
-@author: Ok!
+@author: George Vele
 '''
 
 
